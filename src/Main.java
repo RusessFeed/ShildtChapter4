@@ -2,10 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Vehicle paz = new Vehicle();
-        paz.fuelCap = 150;
-        paz.passengers = 15600;
-        paz.mpg = 258;
+        Vehicle paz = new Vehicle(150, 15600, 258);
 
         int range = paz.getRange();
 
